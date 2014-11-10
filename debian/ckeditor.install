@@ -1,0 +1,8 @@
+*.css	 /usr/share/javascript/ckeditor
+*.js	 /usr/share/javascript/ckeditor
+core     /usr/share/javascript/ckeditor
+adapters /usr/share/javascript/ckeditor
+lang 	 /usr/share/javascript/ckeditor
+plugins	 /usr/share/javascript/ckeditor
+skins	 /usr/share/javascript/ckeditor
+

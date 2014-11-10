@@ -1,0 +1,5 @@
+version=3
+
+#http://ckeditor.com/download ckeditor_(.*)\.tar\.gz
+opts="dversionmangle=s/\.dfsg\d+$//,filenamemangle=s/(?:.*)?v?(\d[\d\.]*)\.tar\.gz/ckeditor-$1.tar.gz/" \
+      https://github.com/ckeditor/ckeditor-dev/tags (?:.*/)?v?(\d[\d\.]*)\.tar\.gz
